@@ -19,10 +19,10 @@
 }
 
 html {
-  font-size: 14px;
+  height: 100vh;
   background-color: var(--OffBlack);
   font-family: var(--font-Inter);
-  height: 100vh;
+  font-size: 14px;
 }
 
 /*      Main __________________________________________*/
@@ -31,12 +31,11 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: var(--DarkGrey);
   width: 24.7rem;
   height: 39.5rem;
-  margin: 0 auto;
-  margin-top: 11.15rem;
+  margin: 11.15rem auto 0 auto;
   border-radius: 0.8rem;
+  background: var(--DarkGrey);
   padding: 2.6rem;
 }
 
@@ -52,15 +51,15 @@ main {
 }
 
 .profile-title {
+  margin-bottom: 0.62rem;
   font-size: 1.55rem;
   font-weight: 500;
-  margin-bottom: 0.62rem;
 }
 
 .profile-info {
+  margin-bottom: 1.8rem;
   font-size: 0.85rem;
   color: var(--Green);
-  margin-bottom: 1.8rem;
 }
 
 blockquote {
@@ -69,28 +68,27 @@ blockquote {
 
 /*      Nav    __________________________________________*/
 nav {
-  margin-top: 1.7rem;
-  height: 100%;
+  flex-basis: max-content;
   width: 100%;
+  margin-top: 1.7rem;
 }
 
 .nav-list {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  list-style-type: none;
 }
 
 .nav-link {
   display: block;
+  margin-bottom: 1rem;
+  padding: 0.93rem 1rem;
+  border-radius: 0.5rem;
   background-color: var(--Grey);
   font-size: 0.85rem;
   font-weight: 700;
   text-align: center;
-  padding: 0.93rem 1rem;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
+  transition: 0.3s ease;
 }
 
 .nav-item {
@@ -98,6 +96,8 @@ nav {
 }
 
 .nav-link:hover {
+  background: var(--White);
+  color: var(--Grey);
   cursor: pointer;
 }
 
@@ -109,13 +109,13 @@ nav {
 /*      Footer __________________________________________*/
 .attribution {
   position: absolute;
+  width: 100%;
   bottom: 0;
   left: 0;
-  width: 100%;
-  background: var(--DarkGrey);
   padding: 1rem;
-  text-align: center;
+  background: var(--DarkGrey);
   font-size: 1rem;
+  text-align: center;
 }
 
 .attribution a {
@@ -130,8 +130,8 @@ nav {
     font-size: 15px;
   }
   main {
-    margin-block: 7.5rem;
     width: 22rem;
+    margin-block: 7.5rem;
     height: 36.5rem;
     padding: 1.6rem;
     padding-bottom: 0;
@@ -153,7 +153,6 @@ nav {
 
   .attribution {
     font-size: 0.7rem;
-
     padding-inline: 0;
   }
 }
