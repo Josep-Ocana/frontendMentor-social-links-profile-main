@@ -1,98 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
-	--font-Inter: 'Inter', sans-serif;
-	--Green: hsl(75, 94%, 57%);
-	--White: hsl(0, 0%, 100%);
-	--Grey: hsl(0, 0%, 20%);
-	--DarkGrey: hsl(0, 0%, 12%);
-	--OffBlack: hsl(0, 0%, 8%);
+  --font-Inter: 'Inter', sans-serif;
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --DarkGrey: hsl(0, 0%, 12%);
+  --OffBlack: hsl(0, 0%, 8%);
 }
 
 /*      Presets __________________________________________*/
 * {
-	margin: 0;
-	box-sizing: border-box;
-	color: var(--White);
-	text-decoration: none;
-	list-style-type: none;
-}
-html {
-	max-width: 1440px;
-	font-size: 14px;
-	background-color: var(--OffBlack);
-	font-family: var(--font-Inter);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--White);
+  text-decoration: none;
 }
 
-body {
-	height: 100vh;
+html {
+  font-size: 14px;
+  background-color: var(--OffBlack);
+  font-family: var(--font-Inter);
+  height: 100vh;
 }
+
 /*      Main __________________________________________*/
 main {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	background: var(--DarkGrey);
-	width: 25rem;
-	height: 38rem;
-	margin: 11rem auto;
-	border-radius: 1rem;
-	padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--DarkGrey);
+  width: 24.7rem;
+  height: 39.5rem;
+  margin: 0 auto;
+  margin-top: 11.15rem;
+  border-radius: 0.8rem;
+  padding: 2.6rem;
 }
+
 /*      Profile __________________________________________*/
 .profile {
-	text-align: center;
+  text-align: center;
 }
 
 .profile-img {
-	width: 5.5rem;
-	border-radius: 50%;
-	margin-bottom: 1.5rem;
+  width: 5.7rem;
+  border-radius: 50%;
+  margin-bottom: 1.55rem;
 }
 
 .profile-title {
-	font-size: 1.5rem;
-	margin-bottom: 0.7rem;
+  font-size: 1.55rem;
+  font-weight: 500;
+  margin-bottom: 0.62rem;
 }
 
 .profile-info {
-	font-size: 0.9rem;
-	color: var(--Green);
-	margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--Green);
+  margin-bottom: 1.8rem;
 }
 
 blockquote {
-	font-size: 0.9rem;
+  font-size: 0.89rem;
 }
 
 /*      Nav    __________________________________________*/
-nav,
-.nav-list,
-.nav-item {
-	width: 100%;
-	height: 100%;
-}
 nav {
-	width: 100%;
-	border: 1px solid green;
+  margin-top: 1.7rem;
+  height: 100%;
+  width: 100%;
 }
 
 .nav-list {
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	border: 1px solid red;
-	padding: 1rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
+
+.nav-link {
+  display: block;
+  background-color: var(--Grey);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.93rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.nav-item {
+  display: block;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.nav-link:active {
+  background: var(--Green);
+  color: var(--Grey);
+}
+
 /*      Footer __________________________________________*/
 .attribution {
-	font-size: 11px;
-	text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--DarkGrey);
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
+}
+
+/*  MEDIA QUERIES
+    Mobile: 375px  _____________________*/
+
+@media screen and (max-width: 376px) {
+  html {
+    font-size: 15px;
+  }
+  main {
+    margin-block: 7.5rem;
+    width: 22rem;
+    height: 36.5rem;
+    padding: 1.6rem;
+    padding-bottom: 0;
+  }
+
+  .profile-img {
+    margin-bottom: 1.4rem;
+  }
+
+  .nav-list,
+  nav {
+    height: max-content;
+    padding-bottom: 0.3rem;
+  }
+
+  nav {
+    margin-top: 0;
+  }
+
+  .attribution {
+    font-size: 0.7rem;
+
+    padding-inline: 0;
+  }
 }
