@@ -26,16 +26,24 @@ We have to create html and css code to make the page as close as possible to the
 
 ### Screenshots
 
+#### Desktop
+
 ![My desktop screenshot](FireShot-desktop.png)
 
+#### Active-states
+
 ![My active screenshot](FireShot-active-states.png)
+
+#### Mobile
 
 ![My mobile screenshot](FireShot-mobile.png)
 
 ### Links
 
 - Solution URL: [@Pepekid_social-links-profile_project](https://github.com/Pepekid/frontendMentor-social-links-profile-main)
-- Live Site URL: [Add live site URL here](https://glowing-duckanoo-0c80df.netlify.app/)
+- Live Site URL: [@Pepekid-social-links-profile-page](https://frontend-mentor-pepekid-social-links.netlify.app/)
+
+## My Process
 
 ### Built with
 
@@ -84,15 +92,16 @@ main {
 
 ### Continued development
 
-I would like to continue creating projects from scratch with html, css and javascript and I would like to learn react too.
+- I would like to continue creating projects from scratch with HTML, CSS and javascript
+- I'm interested in learning _React_ too.
 
 ### Useful resources
 
-- [Creating Navigation Bar](https://www.w3schools.com/css/css_navbar.asp) - w3schools.com helps me so much when I want information about Css and html code and structure.
+- [Creating Navigation Bar](https://www.w3schools.com/css/css_navbar.asp) - w3schools.com helps me so much when I search for information about CSS and HTML code.
 
-- [Flex-basis](https://developer.mozilla.org/es/docs/Web/CSS/flex-basis) - This is a page of MDN Web Docs where explains of what flex-basis do.
+- [Flex-basis](https://developer.mozilla.org/es/docs/Web/CSS/flex-basis) - This is a page of MDN Web Docs where explains how flex-basis works.
 
-- [ChatGPT](https://chat.openai.com/) - This tool is very useful for any doubts or for resolve any problems tha I could have.
+- [ChatGPT](https://chat.openai.com/) - This tool is very useful for resolve any doubt or problem that I could have.
 
 ## Author
 
@@ -105,4 +114,4 @@ I would like to continue creating projects from scratch with html, css and javas
 
 - I would also like to thank Miki for motivating me and for his support.
 
-- I would also like to thank my family for their support and for let me **_"play"_** with the computer. `:)` Jejeje
+- I would also like to thank my family for their support and for let me **_"play"_** so many time with the computer. `:)` Jejeje
