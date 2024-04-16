@@ -16,37 +16,26 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-Hello!
 This is a Frontend Mentor project of a social profile.
 
 ### The challenge
 
 We have to create html and css code to do the page as
 
-### Screenshot
+### Screenshots
 
-###### Desktop Screenshot
+![My desktop screenshot](Fireshot-desktop.png?raw=true)
 
-![My desktop screenshot](Fireshot-desktop.png)
+![My active screenshot](Fireshot-active-states.png?raw=true)
 
-###### Active-states Screenshot
-
-![My active screenshot](Fireshot-active-states.png)
-
-###### Mobile Screenshot
-
-![My mobile screenshot](Fireshot-mobile.png)
+![My mobile screenshot](/Fireshot-mobile.png?raw=true)
 
 ### Links
 
 - Solution URL: [@Pepekid_social-links-profile_project](https://github.com/Pepekid/frontendMentor-social-links-profile-main)
 - Live Site URL: [Add live site URL here](https://glowing-duckanoo-0c80df.netlify.app/)
-
-## My process
 
 ### Built with
 
@@ -59,7 +48,7 @@ We have to create html and css code to do the page as
 My workflow has been better than in the previous project.
 I have also reinforced my workflow with git.
 
-. I organized my navigation bar with useful classes
+- I organized my navigation bar with useful classes
 
 ```html
 <nav class="nav">
@@ -76,7 +65,7 @@ I have also reinforced my workflow with git.
 </nav>
 ```
 
-. I have learned to use flexbox in CSS (I have to go deeper in the subject) and to position the elements where I want using rem as unit measures.
+- I have learned to use flexbox in CSS (I have to go deeper in the subject) and to position the elements where I want using rem as unit measures.
 
 ```css
 main {
@@ -95,7 +84,7 @@ main {
 
 ### Continued development
 
-I would like to continue creating projects from scratch with html, css and javascript and also learn react.
+I would like to continue creating projects from scratch with html, css and javascript and I would like to learn react too.
 
 ### Useful resources
 
