@@ -22,15 +22,15 @@ This is a Frontend Mentor project of a social profile.
 
 ### The challenge
 
-We have to create html and css code to do the page as
+We have to create html and css code to make the page as close as possible to the original one.
 
 ### Screenshots
 
-![My desktop screenshot](Fireshot-desktop.png?raw=true)
+![My desktop screenshot](FireShot-desktop.png)
 
-![My active screenshot](Fireshot-active-states.png?raw=true)
+![My active screenshot](FireShot-active-states.png)
 
-![My mobile screenshot](/Fireshot-mobile.png?raw=true)
+![My mobile screenshot](FireShot-mobile.png)
 
 ### Links
 
