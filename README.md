@@ -28,15 +28,15 @@ We have to create html and css code to make the page as close as possible to the
 
 #### Desktop
 
-![My desktop screenshot](FireShot-desktop.png)
+![My desktop screenshot](/screenshots/FireShot-desktop.png)
 
 #### Active-states
 
-![My active screenshot](FireShot-active-states.png)
+![My active screenshot](/screenshots/FireShot-active-states.png)
 
 #### Mobile
 
-![My mobile screenshot](FireShot-mobile.png)
+![My mobile screenshot](/screenshots/FireShot-mobile.png)
 
 ### Links
 

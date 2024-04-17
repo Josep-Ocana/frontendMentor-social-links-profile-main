@@ -11,18 +11,24 @@
 
 /*      Presets __________________________________________*/
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   color: var(--White);
   text-decoration: none;
 }
 
 html {
-  height: 100vh;
   background-color: var(--OffBlack);
   font-family: var(--font-Inter);
   font-size: 14px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 /*      Main __________________________________________*/
@@ -91,10 +97,6 @@ nav {
   transition: 0.3s ease;
 }
 
-.nav-item {
-  display: block;
-}
-
 .nav-link:hover {
   background: var(--White);
   color: var(--Grey);
@@ -108,11 +110,10 @@ nav {
 
 /*      Footer __________________________________________*/
 .attribution {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2.5rem;
   background: var(--DarkGrey);
   font-size: 1rem;
   text-align: center;
@@ -123,12 +124,23 @@ nav {
 }
 
 /*  MEDIA QUERIES
-    Mobile: 375px  _____________________*/
+    520px  _____________________*/
+
+@media screen and (max-width: 520px) {
+  .attribution {
+    flex-direction: column;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+/*  Mobile: 375px  _____________________*/
 
 @media screen and (max-width: 376px) {
   html {
     font-size: 15px;
   }
+
   main {
     width: 22rem;
     margin-block: 7.5rem;
@@ -143,16 +155,10 @@ nav {
 
   .nav-list,
   nav {
-    height: max-content;
     padding-bottom: 0.3rem;
   }
 
   nav {
     margin-top: 0;
-  }
-
-  .attribution {
-    font-size: 0.7rem;
-    padding-inline: 0;
   }
 }
